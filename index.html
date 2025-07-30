@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nigeria Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="quiz-app">
+    <div id="question-container">
+      <p id="question">Loading question...</p>
+      <div id="options"></div>
+    </div>
+
+    <div id="timer">Time left: <span id="time">10</span> seconds</div>
+
+    <div class="btn-group">
+      <button id="next-btn">Next</button>
+      <button id="submit-btn" class="hide">Submit</button>
+    </div>
+
+    <div id="score-container" class="hide">
+      <h2>Your score: <span id="score"></span></h2>
+    </div>
+
+    <button id="retry-btn" class="hide">Retry</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<footer class="footer">
+  &copy; <span id="year"></span> RemiDonald. All rights reserved.
+</footer>
